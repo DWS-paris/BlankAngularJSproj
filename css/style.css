@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
 /*
 Reset
 */
@@ -15,5 +17,72 @@ html {
 }
 
 body {
+	font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
+    line-height: 1.3em;
 }
+
+a {
+	text-decoration: none;
+	color: red
+}
+
+.currentPage {
+	color: white;
+}
+
+/*
+Header
+*/
+
+header, footer {
+	color: white;
+	background-color: black;
+	padding: 2rem;
+	text-transform: uppercase;
+}
+
+header p {
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: .5rem;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: .5rem;
+}
+
+/*
+Main
+*/
+main {
+	padding: 2rem;
+}
+
+/*
+Footer
+*/
+
+footer {
+	font-size: 1.1rem;
+	position: absolute;
+	padding: .5rem 2rem;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

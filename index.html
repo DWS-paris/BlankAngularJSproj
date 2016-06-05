@@ -27,14 +27,14 @@ La déclaration de l'application myApplication
 
 	<body >
 
-		<header role="header">
+		<header role="header" ng-controller='HeaderCtrl'>
 
-			<h1>Blank AngularJS project</h1>
+			<p>Blank AngularJS project</p>
 			<nav role="nav">
 				<ul>
-					<li><a href="#/">Home</a></li>
-					<li><a href="#/portfolio">Portfolio</a></li>
-					<li><a href="#/contact">Contact</a></li>
+					<li><a href="#/" id="homeBtn">Home</a></li>
+					<li><a href="#/portfolio" id="portfolioBtn">Portfolio</a></li>
+					<li><a href="#/contact" id="contactBtn">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -51,12 +51,15 @@ La déclaration de l'application myApplication
 			<p><a href="http://www.digitalworkshop.fr" target="_blank">©2016 DWS</a> | Under MIT Licence</p>
 		</footer>
 		
-		<!-- Intégration du CDN AngularJS -->
+		<!-- CDN jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<!-- CDN AngularJS -->
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-		<!-- Intégration des modules AngularJS -->
+		<!-- AngularJS module -->
 		<script src="https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
-		<!-- Script de l'application -->
+		<!-- App scripts -->
 		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/controllers/headerCtrl.js"></script>
 		<script type="text/javascript" src="js/controllers/homeCtrl.js"></script>
 		<script type="text/javascript" src="js/controllers/portfolioCtrl.js"></script>
 		<script type="text/javascript" src="js/controllers/contactCtrl.js"></script>
