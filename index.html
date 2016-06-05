@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<!-- 
+La déclaration de l'application myApplication
+-->
+<html ng-app="myApp" >
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>Blank AngularJS project</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!--[if lt IE 8]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!--[if lt IE 7]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body >
+
+		<header role="header">
+
+			<h1>Blank AngularJS project</h1>
+			<nav role="nav">
+				<ul>
+					<li><a href="#/">Home</a></li>
+					<li><a href="#/portfolio">Portfolio</a></li>
+					<li><a href="#/contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<!-- 
+		La directive 'ng-view' permet d'initier les routes 
+		-->
+		<main ng-view role="main" class="mainContent">
+
+		</main>
+
+		<footer role="footer" >
+			<p><a href="http://www.digitalworkshop.fr" target="_blank">©2016 DWS</a> | Under MIT Licence</p>
+		</footer>
+		
+		<!-- Intégration du CDN AngularJS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<!-- Intégration des modules AngularJS -->
+		<script src="https://code.angularjs.org/1.5.5/angular-route.min.js"></script>
+		<!-- Script de l'application -->
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/controllers/accueilCtrl.js"></script>
+		<script type="text/javascript" src="js/controllers/portfolioCtrl.js"></script>
+		<script type="text/javascript" src="js/controllers/contactCtrl.js"></script>
+	</body>
+</html>
