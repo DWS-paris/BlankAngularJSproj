@@ -5,8 +5,8 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(function($routeProvider){
 	$routeProvider
 		.when('/', {
-			templateUrl: 'public/accueil.html', 
-			controller: 'AccueilCtrl'
+			templateUrl: 'public/home.html', 
+			controller: 'HomeCtrl'
 		})
 
 		.when('/portfolio', {
