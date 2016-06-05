@@ -1,2 +1,2 @@
 #BLANK ANGULAR JS PROJECT
-Soem files to begin an AngularJS project
+Some files to start an AngularJS project
