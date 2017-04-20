@@ -1,2 +1,2 @@
-#BLANK ANGULAR JS PROJECT
-Some files to start an AngularJS project
+# BLANK ANGULAR-1.5 JS PROJECT
+Application de base
